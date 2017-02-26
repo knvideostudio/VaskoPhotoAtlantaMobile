@@ -1,0 +1,50 @@
+<resources>
+ 	<string name="app_name">Vasko Atlanta Photo</string>
+    <string name="menu_settings">About Developer</string>
+    <string name="title_activity_main">Vasko Atlanta Photo</string>
+    <string name="title_secondary">Vasko Photograper - Photo Gallery</string>
+    <string name="my_service">Gallery</string>
+    <string name="title_developer">About Developer - Kn Video Studio LLC</string>
+    <string name="kn_profile"><![CDATA[The mobile app was developed by Kn Video Studio LLC.\n
+    App was published online on Nov 12, 2012.\n
+    Latest Upgrade January 06, 2016 \n
+    Phone: 404-909-9557\n
+    Email: mobileapp@knvideostudio.com\n
+    Web Site: http://www.knvideostudio.com \n
+    ]]></string>
+    <string name="main1"><![CDATA[
+	Vasko is capturing the most remarkable images, the incredible journey 
+	through his photographic work was recognized in different countries.\n\n
+	He is working in these areas:    
+   ]]></string>
+    <string name="main2">
+        <![CDATA[
+        • Capture Memorable Portraits \n
+        • Education Awards Ceremony\n
+        • Fine Art Photography\n
+        • Shooting Sports Events\n
+        • Weddings\n
+ 	]]></string>
+    <string name="main3"><![CDATA[
+
+ ]]> 
+</string>
+    <string name="main4"><![CDATA[Vasko is coming from the most beautiful country in the world, Bulgaria which is 
+ located between Macedonia, Greece, Romania, and Black sea. His home town is Vidin, archaically spelled as Widdin in English.
+ The town is a port town on the southern bank of the river Danube 
+ in northwestern Bulgaria. It is close to the borders with Serbia 
+ and Romania.\n\n
+]]></string>
+    <string name="kn_profile_img">Vasko Logo</string>
+    <string name="my_profile">Profile</string>
+    <string name="my_phone">Call Us</string>
+    <string name="my_srv"><![CDATA[
+        Vasko has been photographing different events for most of his life. 
+        He is completely self-taught. His deep and emotional connection 
+        with the nature helps him creating perfect images. Have a look few of his images below: \n\n 
+  ]]></string>
+   <string name="copp">&#169; Copyright, 2016. All Rights Reserved.</string>
+   <string name="my_back">Back to Front</string>
+   <string name="my_detail">Order Photos</string>
+
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"> 
+<TableRow>
+<TextView
+    android:id="@+id/txtShow"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:padding="10dp"
+  android:text="@string/my_srv"
+/>
+</TableRow>
+<TableRow>
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/vsimg1" 
+        android:contentDescription="@string/kn_profile_img"
+    android:paddingLeft="5pt"
+    android:paddingBottom="10pt"/>
+</TableRow>
+<TableRow>
+    <ImageView
+        android:id="@+id/imgPro"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/vsimg2" 
+        android:contentDescription="@string/kn_profile_img"
+    android:paddingLeft="5pt"
+    android:paddingBottom="10pt"/>
+</TableRow>
+<TableRow>
+    <ImageView
+        android:id="@+id/imgPro2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/vsimg3" 
+        android:contentDescription="@string/kn_profile_img"
+    android:paddingLeft="5pt"
+    android:paddingBottom="10pt"/>
+</TableRow>
+<TableRow>
+    <ImageView
+        android:id="@+id/imgPro3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/vsimg4" 
+        android:contentDescription="@string/kn_profile_img"
+    android:paddingLeft="5pt"
+    android:paddingBottom="10pt"/>
+</TableRow>
+<TableRow>
+    <ImageView
+        android:id="@+id/imgPro4"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/vsimg5" 
+        android:contentDescription="@string/kn_profile_img"
+    android:paddingLeft="5pt"
+    android:paddingBottom="10pt"/>
+</TableRow>
+<TableRow>
+    <Button
+     android:id="@+id/btnDetail"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:height="15dp"
+     android:hint="@string/my_detail"
+     android:text="@string/my_detail" />
+</TableRow>
+<TableRow>
+<Button
+     android:id="@+id/btnBack"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:height="15dp"
+     android:hint="@string/my_back"
+     android:text="@string/my_back" />
+</TableRow>
+<TableRow>
+<View   
+     android:layout_width="match_parent"   
+     android:layout_height="1pt"    
+     android:background="#e0e0e0"/> 
+ </TableRow>
+ <TableRow android:paddingLeft="5pt" 
+    android:paddingRight="5pt">
+    <TextView
+android:id="@+id/txtSmall"
+android:layout_width="0dip"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:text="@string/copp" 
+android:textStyle="bold"    
+style = "@android:style/TextAppearance.Small" 
+/>
+</TableRow>    
+</TableLayout>
+</ScrollView>

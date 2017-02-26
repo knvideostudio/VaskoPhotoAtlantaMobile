@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"> 
+<TableRow>
+<TextView
+    android:id="@+id/txtShow"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:padding="10dp"
+  android:text="@string/kn_profile"
+/>
+</TableRow>
+<TableRow>
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/knvideostudio" 
+        android:contentDescription="@string/kn_profile_img"
+    android:paddingLeft="5pt"/>
+</TableRow>
+<TableRow>
+<Button
+     android:id="@+id/btnBack2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:height="15dp"
+     android:hint="@string/my_back"
+     android:text="@string/my_back" />
+</TableRow>
+<TableRow>
+<View   
+     android:layout_width="match_parent"   
+     android:layout_height="1pt"    
+     android:background="#e0e0e0"/> 
+ </TableRow>
+ <TableRow android:paddingLeft="5pt" 
+    android:paddingRight="5pt">
+    <TextView
+android:id="@+id/txtSmall"
+android:layout_width="0dip"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:text="@string/copp" 
+android:textStyle="bold"    
+style = "@android:style/TextAppearance.Small" 
+/>
+</TableRow>    
+</TableLayout>
+</ScrollView>
